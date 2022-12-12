@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Keyword entered is : Google to]]>
+    </line>
+    <line>
+      <![CDATA[Search results are displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Keyword entered is : MicroSoft JAVED]]>
+    </line>
+    <line>
+      <![CDATA[Search results are displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Keyword entered is : Apple gulu]]>
+    </line>
+    <line>
+      <![CDATA[Search results are displayed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-12T09:20:02 PST" name="Default suite" finished-at="2022-12-12T09:20:20 PST" duration-ms="18305">
+    <groups>
+    </groups>
+    <test started-at="2022-12-12T09:20:02 PST" name="Default test" finished-at="2022-12-12T09:20:20 PST" duration-ms="18305">
+      <class name="com.testng.Guru99">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testng.Guru99@6134ac4a]" started-at="2022-12-12T09:20:02 PST" name="setUp" finished-at="2022-12-12T09:20:09 PST" duration-ms="7578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testng.Guru99@6134ac4a]" started-at="2022-12-12T09:20:12 PST" name="search" data-provider="excel-data" finished-at="2022-12-12T09:20:16 PST" duration-ms="4625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[to]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pakistan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aye ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Keyword entered is : Google to]]>
+            </line>
+            <line>
+              <![CDATA[Search results are displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testng.Guru99@6134ac4a]" started-at="2022-12-12T09:20:16 PST" name="search" data-provider="excel-data" finished-at="2022-12-12T09:20:19 PST" duration-ms="2280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicroSoft]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JAVED]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bajwa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Haye ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Keyword entered is : MicroSoft JAVED]]>
+            </line>
+            <line>
+              <![CDATA[Search results are displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testng.Guru99@6134ac4a]" started-at="2022-12-12T09:20:19 PST" name="search" data-provider="excel-data" finished-at="2022-12-12T09:20:20 PST" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gulu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Army]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ Gulu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Keyword entered is : Apple gulu]]>
+            </line>
+            <line>
+              <![CDATA[Search results are displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.testng.Guru99 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
